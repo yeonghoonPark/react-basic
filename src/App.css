@@ -31,3 +31,23 @@
   padding: 4px 8px;
   text-transform: uppercase;
 }
+
+.counter {
+  max-width: 200px;
+  margin: 0 auto 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  border: 2px solid yellowgreen;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.number {
+  font-size: 5rem;
+}
+
+.button {
+  font-size: 2rem;
+}

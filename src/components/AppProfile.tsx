@@ -1,3 +1,4 @@
+import React from "react";
 import Profile from "./Profile";
 
 const user = [
@@ -26,8 +27,16 @@ const user = [
 ];
 
 export default function AppProfile() {
+  const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    console.log(e);
+  };
+
   return (
     <>
+      <button type='button' onClick={handleClick}>
+        Button
+      </button>
+
       <ul>
         {user.map((cV, i) => (
           <li style={{ listStyle: "none" }} key={i}>

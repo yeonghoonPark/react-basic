@@ -1,4 +1,4 @@
-import { User } from "../models/user";
+import { User } from "../models/users";
 import Avatar from "./Avatar";
 
 type Props = {
